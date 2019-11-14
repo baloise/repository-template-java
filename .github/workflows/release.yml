@@ -1,10 +1,10 @@
+name: Create Relase
+
 on:
   push:
     # Sequence of patterns matched against refs/tags
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
-
-name: Create Release
 
 jobs:
   build:
@@ -14,10 +14,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
       - name: Deploy to Github Package Registry
-          env:
+        env:
             GITHUB_USERNAME: x-access-token
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          run:
+        run:
             mvn --settings settings.xml deploy
       - name: Create Release
         id: create_release
