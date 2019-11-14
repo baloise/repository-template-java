@@ -3,6 +3,3 @@ jdk:
   - openjdk8
   
 script: "mvn clean verify"
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
