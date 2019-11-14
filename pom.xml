@@ -38,7 +38,7 @@
 
   <scm>
     <url>https://github.com/baloise/repository-template-java.git</url>
-    <connection>scm:git:git@github.com:baloise/repository-template-java.git</connection>
+    <connection>scm:git:https://github.com/baloise/repository-template-java.git</connection>
     <tag>HEAD</tag>
   </scm>
   
