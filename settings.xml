@@ -24,8 +24,8 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/OWNER </url>
+                    <name>GitHub Baloise Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/baloise</url>
                 </repository>
             </repositories>
         </profile>
