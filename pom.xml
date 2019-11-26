@@ -24,7 +24,7 @@
 
   <groupId>com.baloise.open.repository-template-java</groupId>
   <artifactId>repository-template-java</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
 
   <ciManagement>
@@ -38,7 +38,7 @@
   <scm>
     <url>https://github.com/baloise/repository-template-java.git</url>
     <connection>scm:git:https://github.com/baloise/repository-template-java.git</connection>
-    <tag>HEAD</tag>
+    <tag>v0.0.2</tag>
   </scm>
   
   <distributionManagement>
