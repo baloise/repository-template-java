@@ -28,8 +28,8 @@
   <packaging>jar</packaging>
 
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/baloise/repository-template-java</url>
+    <system>Github Actions</system>
+    <url>https://github.com/baloise/repository-template-java/actions</url>
   </ciManagement>
 
   <name>repository-template-java-main</name>
