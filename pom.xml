@@ -118,9 +118,9 @@
     <resources>
       <resource>
         <directory>.</directory>
-        <excludes>
-          <exclude>target/</exclude>
-        </excludes>
+        <includes>
+          <include>LICENSE.txt</include>
+        </includes>
       </resource>
     </resources>
   </build>
