@@ -14,12 +14,12 @@ If you need help, please reach out to us by opening an issue.
 ## Report a bug 
 Reporting bugs is one of the best ways to contribute. Before creating a bug report, please check that an [issue](../../issues) reporting the same problem does not already exist. If there is such an issue, you may add your information as a comment.
 
-To report a new bug you should open an issue that summarizes the bug and set the label to "bug".
+To [report a new bug](../../issues/new?labels=bug) you should open an issue that summarizes the bug and set the label to "bug".
 
 If you want to provide a fix along with your bug report: That is great! In this case please send us a pull request as described in section [Contribute Code](#contribute-code).
 
 ## Suggest a feature
-To request a new feature you should open an [issue](../../issues/new) and summarize the desired functionality and its use case. Set the issue label to "feature".  
+To request a new feature you should [open an issue](../../issues/new?labels=enhancement) and summarize the desired functionality and its use case. Set the issue label to "feature".  
 
 ## Contribute code
 This is an outline of what the workflow for code contributions looks like
