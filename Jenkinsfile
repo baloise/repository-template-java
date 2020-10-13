@@ -58,6 +58,10 @@ pipeline {
 
             steps {
                 sonar()
+                
+                nexusPolicyEvaluation iqApplication: 'com.baloise.open.repository-template-java', 
+                    iqScanPatterns: [[scanPattern: 'target/*.jar']], 
+                    iqStage: 'build'
             }
         }
     }
