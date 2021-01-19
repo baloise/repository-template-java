@@ -1,5 +1,5 @@
 # repository-template-java
-A template to use when starting a new project.
+A template to use when starting a new open source project.
 
 ## perform a repository wide search and replace for "repository-template-java" and the "target-repo-name"
 
