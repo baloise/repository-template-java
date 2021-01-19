@@ -23,10 +23,10 @@
 hs_err_pid*
 
 # Maven Files #
-target/
+/target/
 
 # IDE Files
-.settings/org.eclipse.jdt.core.prefs
-.project
-.classpath
+/.settings
+/.project
+/.classpath
 /bin/
