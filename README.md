@@ -16,6 +16,6 @@ cp -R repository-template-java/ new-name && cd new-name && git config --local --
 
 ## releasing
 
-Run e.g. on master: `mvn -B release:prepare` e.g. via [![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/baloise/repository-template-java)
+Run e.g. on master: `mvn -B release:prepare` e.g. via [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io#https://github.com/baloise/repository-template-java)
 
 Subsequently the GitHub action worksflow "create release" will pick up the published tag and release and deploy the artifacts in the Github package registry.
